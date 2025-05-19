@@ -16,6 +16,9 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     
     BrainTumorDetectionDesc: "A deep learning-based application for detecting brain tumors from MRI scans. Built using Python, TensorFlow, and CNN architectures, it automates tumor classification and helps improve early diagnosis through medical image analysis.",
     BrainTumorDetectionGithub: "https://github.com/Sal03/MRI-Brain-Tumor-Detection",
+
+    AlexaNLPDesc: "Just wrapped up an engaging voice + NLP project! I developed a customized Alexa Skill empowered by Hugging Face's zero-shot classification model, enabling the comprehension and categorization of natural language commands without strict phrases. The goal was to elevate Alexa's capabilities beyond simple keyword matching to truly grasp user intent.\n\nKey Components:\n- Created a Flask backend to handle Alexa requests\n- Integrated facebook/bart-large-mnli for zero-shot NLP capabilities\n- Transformed open-ended queries like “What offers are available today?” into actionable commands like ask_offer\n- Conducted thorough testing and deployed the solution live using ngrok + the Alexa Developer Console.\n\nAdditionally, I penned a comprehensive Medium article detailing the project’s intricacies, including challenges, tech stack, and insights gained. It's more than just a technical guide—it's a story of enhancing Alexa's intelligence through modern NLP.",
+    AlexaNLPGithub: "https://github.com/Sal03/Alexa-NLP-Zero-Shot",
   }
 
   let show ='';

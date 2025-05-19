@@ -4,6 +4,7 @@ import BrainTumorImage from '../images/BrainTumorImage.png';
 import ChurnDashboardImage from '../images/ChurnDashboardImage.png';
 import MediBuddyImage from '../images/MediBuddyImage.png';
 import EquationSolverImage from '../images/EquationSolverImage.png';
+import AlexaNLP from '../images/Alexa.png';
 
 
 const Projects = () => {
@@ -15,6 +16,7 @@ const Projects = () => {
       <ProjectBox projectPhoto={ChurnDashboardImage} projectName="ChurnDashboard" />
       <ProjectBox projectPhoto={MediBuddyImage} projectName="MediBuddy" />
       <ProjectBox projectPhoto={EquationSolverImage} projectName="EquationSolver" />
+      <ProjectBox projectPhoto={AlexaNLP} projectName="AlexaNLP" />
       </div>
   </div>
 
