@@ -12,7 +12,7 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Saloni Angre</b> and I am Seattle.
+            Hi, my name is <b>Saloni Angre</b> and I am from Seattle.
             I'm a <b>Software Engineer</b> currently pursuing my <b>Master’s in Information Systems</b>. <br/><br/>
             I hold a Bachelor's in Information Technology and have hands-on experience in backend development, ML research, and API integration. Previously, I worked as a <b>Software Engineer at LTIMindtree</b> My curiosity for intelligent systems led me to complete two machine learning research internships, where I applied ML techniques to hardware signal analysis, circuit fault prediction, and large language model tuning.
             Outside of work, I’m a strong believer in building with purpose and creativity. You can find some of my technical and research projects in the Projects section.<br/><br/>
