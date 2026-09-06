@@ -29,10 +29,10 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
-      I'm <b>Saloni Angre</b>, a passionate Software Engineer currently pursuing my Masters in Information Systems at Northeastern University in Seattle. <br /><br />
-      I enjoy building impactful software — whether it's developing scalable backend systems or designing intelligent ML models. I have worked with <b>Java</b>, <b>Spring Boot</b>, <b>Python</b>, <b>C++</b>, and built end-to-end projects using industry tools and frameworks.<br /><br />
-      My professional experience at <b>LTIMindtree</b> and research internships have strengthened my skills in API development, data pipelines, and fault detection using Machine Learning.<br /><br />
-      Outside of coding, I enjoy capturing travelling and staying fit — so yes, I hit the <b>gym</b> <FaDumbbell style={{ scale: "1.5", rotate: "15deg" }} />.
+      I'm <b>Saloni Angre</b>, a Technical Product Manager with an engineering background, currently completing my Masters in Information Systems at Northeastern University in Seattle. <br /><br />
+      Most recently I was a <b>Technical Product Manager Intern on the CUDA team at NVIDIA</b>, where I owned developer facing AI platform initiatives, partnered with engineering, research, and technical marketing to define roadmap priorities, and authored product requirements and positioning materials that supported strategic decisions.<br /><br />
+      Before that I spent two years as a <b>Software Engineer at LTIMindtree</b>, shipping enterprise products and using SQL and product analytics to raise operational efficiency by 18%. That engineering foundation is what lets me work credibly with technical teams on <b>LLMs</b>, <b>RAG</b>, and product analytics today.<br /><br />
+      Outside of work, I enjoy travelling and staying fit — so yes, I hit the <b>gym</b> <FaDumbbell style={{ scale: "1.5", rotate: "15deg" }} />.
     </p>
         </div>
         <Tilt>

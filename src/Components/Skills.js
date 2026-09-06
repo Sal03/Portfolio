@@ -23,7 +23,11 @@ const Skills = ({ skill }) => {
 
   return (
     <div title={skill} className='SkillBox'>
-      {icon[skill]}
+      {icon[skill] || (
+        <span style={{ fontSize: '1.1rem', textAlign: 'center', padding: '0 8px', lineHeight: 1.3 }}>
+          {skill}
+        </span>
+      )}
     </div>
   );
 };
