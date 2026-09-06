@@ -5,6 +5,10 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
+    CudaAnalyzerDesc: "A full-stack web app that scores the quality of any public CUDA sample repository. Paste a GitHub URL and it analyzes each sample directory across documentation, code clarity, best practices, and API modernity, then returns a scored dashboard. Built with a FastAPI analysis engine and a React frontend.",
+    CudaAnalyzerGithub: "https://github.com/Sal03/cuda-analyzer-web",
+    CudaAnalyzerWebsite: "https://cuda-analyzer-web.vercel.app/",
+
     EquationSolverDesc: "A GUI-based calculator that uses artificial neural networks to recognize and solve handwritten mathematical equations. Built with Python, TensorFlow, and Keras, this project demonstrates real-time digit and operator recognition for interactive problem-solving.",
     EquationSolverGithub: "https://github.com/Sal03/Handwritten-Mathematical-Equation-Solver",
 
@@ -18,11 +22,12 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     BrainTumorDetectionGithub: "https://github.com/Sal03/MRI-Brain-Tumor-Detection",
   }
 
-  let show ='';
-  if(desc[projectName + 'Github']===""){
-    show="none";
-  }
-    
+  const githubLink = desc[projectName + 'Github'];
+  const websiteLink = desc[projectName + 'Website'];
+
+  const showGithub = githubLink ? '' : 'none';
+  const showWebsite = websiteLink ? '' : 'none';
+
   return (
     <div className='projectBox'> 
         <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
@@ -33,11 +38,11 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             {desc[projectName + 'Desc']}
             <br />
 
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
+            <a style={{display:showGithub}} href={githubLink} target='_blank' rel="noreferrer">
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
-            <a href={desc[projectName + 'Website']} target='_blank'>
+            <a style={{display:showWebsite}} href={websiteLink} target='_blank' rel="noreferrer">
               <button className='projectbtn'><CgFileDocument/> Demo</button>
             </a>
         </div>

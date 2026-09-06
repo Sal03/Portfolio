@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
+import CudaAnalyzerImage from '../images/CudaAnalyzerImage.png';
 import BrainTumorImage from '../images/BrainTumorImage.png';
 import ChurnDashboardImage from '../images/ChurnDashboardImage.png';
 import MediBuddyImage from '../images/MediBuddyImage.png';
@@ -11,6 +12,7 @@ const Projects = () => {
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
+      <ProjectBox projectPhoto={CudaAnalyzerImage} projectName="CudaAnalyzer" />
       <ProjectBox projectPhoto={BrainTumorImage} projectName="BrainTumorDetection" />
       <ProjectBox projectPhoto={ChurnDashboardImage} projectName="ChurnDashboard" />
       <ProjectBox projectPhoto={MediBuddyImage} projectName="MediBuddy" />
