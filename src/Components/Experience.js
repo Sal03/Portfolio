@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <div>
       <h1 className='projectHeading'>My <b>Experience</b></h1>
-      <div className='project'>
+      <div style={{ padding: '0 20px' }}>
 
         <ExperienceBox
           photos={[NvidiaLobby, NvidiaSign]}
@@ -37,6 +37,7 @@ const Experience = () => {
             "Analyzed customer workflows using SQL and product analytics to surface adoption opportunities, improving operational efficiency by 18%.",
             "Partnered across teams through feature planning, launch, testing, and post-release optimization, folding customer feedback into every iteration."
           ]}
+          reverse={true}
           caption="My first badge and two years of shipping to real users, which is where I learned that a feature nobody adopts is just a very expensive opinion."
         />
 
